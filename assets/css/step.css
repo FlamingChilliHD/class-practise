@@ -1,0 +1,55 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(245, 222, 179);
+}
+
+.screen {
+    padding-top: 30px;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    transform: translateX(50%);
+    display: flex;
+    flex-direction: column;
+    border-left: 5px solid rgb(178, 34, 34);
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.number {
+    position: relative;
+}
+
+.border-text {
+    position: absolute;
+    transform: translateY(-130%) translateX(-55%);
+    background-color: royalblue;
+    font-size: 30px;
+    border-radius: 50%;
+    padding: 5px 15px;
+    font-weight: bold;
+    color: wheat;
+}
+
+.icon {
+    font-size: 55px;
+    margin-left: 70px;
+}
+
+ion-icon {
+    background-color: rgb(178, 34, 34);
+    border-radius: 50%;
+    padding: 25px;
+}
+
+.content {
+    margin: 20px;
+    padding-left: 20px;
+}

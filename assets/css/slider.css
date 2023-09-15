@@ -1,0 +1,37 @@
+html, body {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(245, 245, 245);
+    height: 100%;
+}
+
+.head1 {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(245, 222, 179);
+    width: 100%;
+}
+
+.button {
+    font-size: 35px;
+}
+
+.head2 {
+    margin: 0 auto;
+    padding: 0;
+    background-color: rgb(65, 105, 225);
+    width: 100%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    text-align: center;
+}
+
+.slider {
+    background-color: rgb(47, 79, 79);
+    margin: 70px auto;
+}
